@@ -1,0 +1,96 @@
+header {
+    background-color: lightseagreen;
+    padding: 50px;
+    text-align: center;
+    border-bottom: 5px solid yellowgreen;
+}
+
+body {
+    background-color: #ef5350;
+  }
+
+.gridContainer {
+    background: black;
+    
+    display: inline-block;
+    border: 5px solid black;
+    /* margin-left: 450px; */
+    margin-top: 50px;
+  }
+
+  .gridSmall {
+    display: grid;
+    grid-template-columns: repeat(16, 20px);
+    grid-template-rows: repeat(16, 20px);
+    grid-gap: 5px;
+  }
+
+  .gridMedium {
+    display: grid;
+    grid-template-columns: repeat(32, 10px);
+    grid-template-rows: repeat(32, 10px);
+    grid-gap: 5px;
+  }
+
+  .gridBig {
+    display: grid;
+    grid-template-columns: repeat(64, 5px);
+    grid-template-rows: repeat(64, 5px);
+    grid-gap: 5px;
+  }
+
+  .cell {
+     /* center the cell content */
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-family: Arial;
+    font-size: 3rem;
+    font-weight: bold;
+    background: white;
+  }
+
+  .header {
+      color: #FFED66;
+  }
+
+  button:hover {
+    transform: scale(1.1);
+    border-color: #ffc600;
+    box-shadow: 0 0 1rem #ffc600;
+  }
+
+  #density {
+      margin-top: 50px;
+      font-size: 20px;
+      text-align: center;
+  }
+
+  #small {
+      margin-left: 30px;
+  }
+
+  #mode {
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+
+  #classic {
+    margin-left: 30px;
+}
+
+  #eraserArea {
+      margin-top: 20px;
+  }
+
+  #eraser {
+    background-color: #FFED66;
+    border: 5px solid #FFED66; 
+    color: #ef5350;
+    font-size: 25px;
+  }
+
+  #options {
+      margin-top: 150px;
+  }
